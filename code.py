@@ -4,6 +4,11 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
+# Generating some example data
+# Features (input data)
+X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+# Labels (output data)
+y = np.array([[0], [1], [1], [0]])
 
 # Creating a simple neural network model
 model = Sequential()

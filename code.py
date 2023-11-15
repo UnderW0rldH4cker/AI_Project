@@ -6,9 +6,9 @@ from tensorflow.keras.layers import Dense
 
 # Generating some example data
 # Features (input data)
-X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+X = np.array([[0, 0], [0, 1], [1, 0], [1, 0]])
 # Labels (output data)
-y = np.array([[0], [1], [1], [0]])
+y = np.array([[0], [1], [1], [1]])
 
 # Creating a simple neural network model
 model = Sequential()
@@ -19,7 +19,7 @@ model.add(Dense(1, activation='sigmoid'))           # Output layer with 1 neuron
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 # Training the model
-model.fit(X, y, epochs=1000, verbose=2)
+model.fit(x, y, epochs=1000, verbose=2)
 
 # Making predictions
 predictions = model.predict(X)

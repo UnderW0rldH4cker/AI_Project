@@ -1,2 +1,3 @@
-# AI_Project
-This repository is very important to me. I had been trying to fix all the bugs to ensure the project works
+This code creates a basic neural network using the TensorFlow library. The network has one hidden layer with four neurons and a ReLU activation function, and an output layer with one neuron and a sigmoid activation function. The model is trained on a simple XOR-like dataset.
+
+Keep in mind that creating a truly useful and versatile AI system requires a deep understanding of the problem domain, careful data preprocessing, and often more complex network architectures. Additionally, machine learning models are typically trained on large datasets, and the provided example is for educational purposes only.
